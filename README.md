@@ -13,7 +13,7 @@ This project demonstrates how AI and NLP libraries can be integrated into a web 
 # 🎯 Objective
 
 The main objective of this project is:
-
+```text
 🌐 To break language barriers by providing instant translation between multiple languages
 🖼 To extract text from images using OCR technology
 📄 To translate PDF documents efficiently
@@ -21,9 +21,9 @@ The main objective of this project is:
 📊 To track and analyze user activity using a dashboard
 💾 To store translation history for future reference
 🧠 To integrate AI/NLP tools into a real-world web application
-
+```
 # 🚀 Features
-
+```text
 ✨ Text Translation (Multi-language support)
 🖼 OCR Image Text Extraction
 📄 PDF Text Translation
@@ -31,9 +31,9 @@ The main objective of this project is:
 📜 Translation History with SQLite Database
 📊 Analytics Dashboard (usage tracking)
 🎨 Modern responsive UI (Bootstrap + Custom CSS)
-
+```
 # 🧠 Tech Stack
-
+```text
 Backend
 Python 🐍
 Flask
@@ -46,7 +46,7 @@ HTML5
 CSS3
 Bootstrap 5
 JavaScript
-
+```
 # 📂 Project Structure
 
 ```text
@@ -95,7 +95,7 @@ python app.py
 http://127.0.0.1:5000/
 
 # 📊 Database (SQLite)
-
+```text
 history table
 id
 source_text
@@ -104,7 +104,7 @@ source_lang
 target_lang
 created_at
 type
-
+```
 # 🧪 Modules Explained
 
 🌍 Translator
