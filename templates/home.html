@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Language Translator Platform</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+
+    <div class="container">
+
+        <!-- Logo -->
+
+        <a class="navbar-brand logo-text" href="/">
+            🌍 AI Language Translator
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto align-items-center">
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="#features">Features</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="#languages">Languages</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="#about">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-custom" href="#contact">Contact</a>
+                </li>
+
+                
+
+                <li class="nav-item ms-2">
+                    <a href="/dashboard" class="btn btn-primary">
+                        Dashboard
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero-section py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h1 class="display-3 fw-bold mb-4">
+
+                       The Future of Smart Language Translation
+
+                    </h1>
+
+                    <p class="lead text-white mb-4">
+
+    Translate Text, Images and PDF Documents
+    into Multiple Languages with Artificial Intelligence.
+
+</p>
+
+                    <a href="/translator"
+                       class="btn btn-primary btn-lg me-3">
+
+                        Get Started
+
+                    </a>
+
+                    
+
+                </div>
+
+                <div class="col-lg-6 text-center">
+
+    <img
+        src="https://cdn-icons-png.flaticon.com/512/8943/8943377.png"
+        class="img-fluid"
+        style="max-width:500px;"
+        alt="AI Robot">
+
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Statistics -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row text-center g-4">
+
+                <div class="col-md-3">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <h2 class="text-primary fw-bold">
+                            100+
+                        </h2>
+
+                        <p class="mb-0">
+                            Languages
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <h2 class="text-primary fw-bold">
+                            50K+
+                        </h2>
+
+                        <p class="mb-0">
+                            Users
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <h2 class="text-primary fw-bold">
+                            1M+
+                        </h2>
+
+                        <p class="mb-0">
+                            Translations
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <h2 class="text-primary fw-bold">
+                            99%
+                        </h2>
+
+                        <p class="mb-0">
+                            Accuracy
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+
+    <section id="features" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+
+            Advanced AI Features
+
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+
+                <div class="card feature-card shadow border-0 p-5">
+
+                    <h3>🎤 Voice Translation</h3>
+
+                    <p class="mt-3">
+
+                        Convert spoken language into translated text instantly using AI-powered voice recognition.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="card feature-card shadow border-0 p-5">
+
+                    <h3>📄 PDF Translation</h3>
+
+                    <p class="mt-3">
+
+                        Upload PDF documents and translate complete content into your preferred language.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="card feature-card shadow border-0 p-5">
+
+                    <h3>🖼 OCR Translation</h3>
+
+                    <p class="mt-3">
+
+                        Extract text from images and instantly translate it with advanced OCR technology.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="card feature-card shadow border-0 p-5">
+
+                    <h3>⚡ Real-Time Translation</h3>
+
+                    <p class="mt-3">
+
+                        Get fast and accurate translations across multiple languages in real time.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Supported Languages -->
+
+<section id="languages" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5 text-dark">
+
+            Supported Languages
+
+        </h2>
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇺🇸
+                    <h5>English</h5>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇮🇳
+                    <h5>Hindi</h5>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇮🇳
+                    <h5>Marathi</h5>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇫🇷
+                    <h5>French</h5>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇩🇪
+                    <h5>German</h5>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+                <div class="language-card text-dark">
+                    🇪🇸
+                    <h5>Spanish</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- About -->
+
+    
+
+<section id="about" class="py-5 bg-dark">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <h2 class="fw-bold text-white mb-4">
+
+                    About Our Platform
+
+                </h2>
+
+                <p class="text-white fs-5">
+
+                    AI Language Translator Platform is an intelligent
+                    translation solution designed to help users
+                    communicate across different languages effortlessly.
+
+                </p>
+
+                <p class="text-white">
+
+                    Our platform leverages Artificial Intelligence
+                    to translate text, voice, images and PDF documents
+                    with high accuracy and speed.
+
+                </p>
+
+                <p class="text-white">
+
+                    Whether you are a student, researcher,
+                    traveler, professional or business user,
+                    our platform makes multilingual communication
+                    simple and efficient.
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="about-card">
+
+                    <h4>🚀 Key Highlights</h4>
+
+                    <ul>
+
+                        <li>100+ Supported Languages</li>
+
+                        <li>Real-Time Translation</li>
+
+                        <li>Voice-to-Text Translation</li>
+
+                        <li>PDF Document Translation</li>
+
+                        <li>Image OCR Translation</li>
+
+                        <li>Translation History</li>
+
+                        <li>AI-Powered Accuracy</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- contact -->
+
+    <section id="contact" class="py-5 bg-light">
+
+    <div class="container text-center">
+
+        <h2 class="fw-bold mb-4 text-dark">
+            Contact Us
+        </h2>
+
+        <p class="text-dark fs-5">
+            Email: chandgudegayatri@gmail.com
+        </p>
+
+        <p class="text-dark fs-5">
+            Phone: +91 9209604373
+        </p>
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white py-4">
+
+        <div class="container text-center">
+
+            <h5>
+                🌍 AI Language Translator
+            </h5>
+
+            <p>
+                Translate Smarter with Artificial Intelligence
+            </p>
+
+            <p class="mb-0">
+                © 2026 AI Language Translator Platform
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

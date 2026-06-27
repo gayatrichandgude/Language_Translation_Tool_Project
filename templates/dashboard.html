@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard | AI Language Translator</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    background:#f4f7fc;
+}
+
+/* Navbar */
+.navbar{
+    padding:22px 0;
+}
+
+.navbar-brand{
+    font-size:32px;
+    font-weight:700;
+}
+
+/* Welcome */
+.welcome-card{
+    background:linear-gradient(135deg,#0d6efd,#5b8dff);
+    color:white;
+    border-radius:25px;
+    padding:70px 50px;
+}
+
+/* Cards */
+.dashboard-card{
+    border:none;
+    border-radius:25px;
+    transition:0.4s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.card-icon{
+    font-size:65px;
+}
+
+footer{
+    margin-top:100px;
+    padding:40px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">
+🌍 AI Language Translator
+</a>
+
+<div>
+
+<a href="/" class="btn btn-light me-2">🏠 Home</a>
+<a href="/translator" class="btn btn-warning me-2">🌍 Translator</a>
+<a href="/logout" class="btn btn-danger">🚪 Logout</a>
+
+</div>
+
+</div>
+</nav>
+
+<!-- Welcome -->
+<div class="container mt-5">
+
+<div class="welcome-card shadow">
+
+<h1 class="display-5 fw-bold">
+Welcome Back 👋
+</h1>
+
+<p class="fs-4 mb-0">
+Start translating documents, images and text with AI-powered multilingual tools.
+</p>
+
+</div>
+
+</div>
+
+<!-- Features -->
+<div class="container mt-5">
+
+<h2 class="fw-bold text-center mb-4">
+🚀 Smart Translation Workspace
+</h2>
+
+<div class="row g-4">
+
+<!-- Row 1 -->
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">🌍</div>
+<h4 class="fw-bold mt-3">Translation</h4>
+<p class="text-muted">Translate text into multiple languages.</p>
+<a href="/translator" class="btn btn-primary">Open</a>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">🖼️</div>
+<h4 class="fw-bold mt-3">OCR Translation</h4>
+<p class="text-muted">Extract text from images.</p>
+<a href="/ocr" class="btn btn-success">Open</a>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">📄</div>
+<h4 class="fw-bold mt-3">PDF Translator</h4>
+<p class="text-muted">Translate PDF documents.</p>
+<a href="/pdf" class="btn btn-danger">Open</a>
+</div>
+</div>
+
+<!-- Row 2 -->
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">🤖</div>
+<h4 class="fw-bold mt-3">AI Grammar Checker</h4>
+<p class="text-muted">Improve sentence quality.</p>
+<a href="/grammar" class="btn btn-warning">Open</a>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">📊</div>
+<h4 class="fw-bold mt-3">Analytics</h4>
+<p class="text-muted">Track translation statistics.</p>
+<a href="/analytics" class="btn btn-info">View</a>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="card dashboard-card shadow-lg text-center p-4 h-100">
+<div class="card-icon">📜</div>
+<h4 class="fw-bold mt-3">History</h4>
+<p class="text-muted">View previous translations.</p>
+<a href="/history" class="btn btn-secondary">Open</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer-section">
+
+<div class="container text-center">
+
+<h4 class="fw-bold mb-3">
+🌍 AI Language Translator
+</h4>
+
+<p class="mb-2">
+AI Powered Multilingual Translation Platform
+</p>
+
+<p class="mb-0">
+© 2026 All Rights Reserved
+</p>
+
+</div>
+
+</footer>
+
+</body>
+</html>
